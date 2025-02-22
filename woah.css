@@ -1,7 +1,7 @@
 @import url('https://fonts.cdnfonts.com/css/helvetica-neue-55?styles=16016');
 
 html,body {
-    --color-bg: linear-gradient(chocolate, gold, yellow, crimson, brown, purple, navy, black);
+    --color-bg: linear-gradient(chocolate, gold, yellow, #ff5b4f, brown, purple, navy, black);
     --color-bg2: repeating-conic-gradient(red 0deg 10deg, gold 10deg 20deg, blue 20deg 30deg);
     --color-bg3: conic-gradient(red 0deg, red 90deg, yellow 90deg, yellow 180deg, green 180deg, green 270deg, blue 270deg);
     --color-text-main: #000000;
