@@ -124,7 +124,7 @@ body {
 /* Page titles */
 h1 {
   color: #2800FF;
-  font-family: var(--font-family-header);
+  font-family: "Bangers", display, cursive;
   font-weight: 100;
   font-size: 100px;
   line-height: 105%;
