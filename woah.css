@@ -1,6 +1,6 @@
 @import url('https://fonts.cdnfonts.com/css/helvetica-neue-55?styles=16016');
 
-html,body {
+:root {
     --color-bg: linear-gradient(chocolate, gold, yellow, #ff5b4f, brown, purple, navy, black);
     --color-bg2: repeating-conic-gradient(red 0deg 10deg, gold 10deg 20deg, blue 20deg 30deg);
     --color-bg3: conic-gradient(red 0deg, red 90deg, yellow 90deg, yellow 180deg, green 180deg, green 270deg, blue 270deg);
@@ -9,7 +9,14 @@ html,body {
     --wrapper-height: 85vh;
     --image-max-width: 320px;
     --font-family: "Arial";
-    --font-family-header: "Helvetica Neue";
+    --font-family-header: "Helvetica Neue";   
+}
+html,body {
+width:100%;
+height:100%;
+font-family: var(--font-family);
+background-image: var(--color-bg);
+
 }
 /* width */
 ::-webkit-scrollbar {
@@ -91,15 +98,7 @@ a:not(.btn--remix):visited {
   padding: 0 1rem;
   color:white;
 }
-/******************************************************************************
-END Glitch hello-app default styles
-******************************************************************************/
 
-/* Page structure */
-body {
-  font-family: var(--font-family);
-  background-image: var(--color-bg);
-}
 .wrapper {
   min-height: var(--wrapper-height);
   display: grid;
