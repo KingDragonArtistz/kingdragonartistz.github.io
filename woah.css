@@ -13,10 +13,15 @@
 }
 html,body {
 width:100%;
-height:100%;
+}
+html{
+-webkit-text-size-adjust:100%;
+-ms-text-size-adjust:100%;
+}
+body{
 font-family: var(--font-family);
 background-image: var(--color-bg);
-
+margin:0;
 }
 /* width */
 ::-webkit-scrollbar {
