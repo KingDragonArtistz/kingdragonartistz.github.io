@@ -131,6 +131,7 @@ h1 {
   font-weight: 100;
   font-size: max(200%, 12em);
   line-height: 105%;
+    text-align:center;
 }
 .page h1 {
   font-size: 48px;
@@ -161,6 +162,10 @@ h1 {
   margin: 1rem auto 0;
   font-size: 1rem;
 }
+.instructions h1 {
+color:white;
+}
+
 h2 {
   color: #2800FF;
 }
@@ -258,6 +263,6 @@ h2 {
     height: auto;
   }
     .title {
-        font-size:38px;
+        font-size:52px;
     }
 }
