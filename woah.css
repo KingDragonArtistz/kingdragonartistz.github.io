@@ -125,9 +125,11 @@ margin:0;
 /* Page titles */
 h1 {
   color: #2800FF;
+}
+.title {
   font-family: "Bangers Regular", display, cursive;
   font-weight: 100;
-  font-size: min(100px,7em );
+  font-size: max(200%, 12em);
   line-height: 105%;
 }
 .page h1 {
