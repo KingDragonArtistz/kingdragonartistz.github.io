@@ -257,4 +257,7 @@ h2 {
     width: 100%;
     height: auto;
   }
+    .title {
+        font-size:38px;
+    }
 }
