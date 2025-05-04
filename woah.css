@@ -123,7 +123,7 @@ h1 {
   color: #2800FF;
   font-family: "Bangers Regular", display, cursive;
   font-weight: 100;
-  font-size: 100px;
+  font-size: min(100px,500% );
   line-height: 105%;
 }
 .page h1 {
