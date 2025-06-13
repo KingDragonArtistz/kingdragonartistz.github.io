@@ -132,7 +132,8 @@ h1 {
   font-weight: 100;
   font-size: max(200%, 12em);
   line-height: 105%;
-    text-align:center;
+  text-align:center;
+  text-shadow: 0 0 40px #00a9e2;
 }
 .page h1 {
   font-size: 48px;
