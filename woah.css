@@ -17,14 +17,12 @@ height:100vh;
 margin:0;
 padding:0;
 }
-body{
-height:101%;
-}
 html{
 -webkit-text-size-adjust:100%;
 -ms-text-size-adjust:100%;
 font-family: var(--font-family);
 background-image: var(--color-bg);
+background-repeat:no-repeat;
 }
 /* width */
 ::-webkit-scrollbar {
@@ -110,7 +108,7 @@ a:not(.btn--remix):visited {
   display: grid;
   place-items: center;
     margin:0;
-  padding: 0 1rem;
+  padding: 0;
   height: 100%;
     width:100%;
 }
