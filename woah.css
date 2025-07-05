@@ -11,6 +11,7 @@
     --font-family: "Arial";
     --font-family-header: "Helvetica Neue";   
 }
+* {box-sizing: border-box}
 html,body {
 width:100%;
 height:100%;
@@ -48,25 +49,14 @@ background-repeat:no-repeat;
 ::-webkit-scrollbar-thumb:hover {
   background: dodgerblue; 
 }
-* {box-sizing: border-box}
+
 [hidden] {
   display: none !important;
 }
 .floatLeft {
   float:left;
 }
-/* Import fonts */
-@font-face {
-  font-family: HK Grotesk;
-  src: url("https://cdn.glitch.me/605e2a51-d45f-4d87-a285-9410ad350515%2FHKGrotesk-Regular.otf?v=1603136326027")
-    format("opentype");
-}
-@font-face {
-  font-family: HK Grotesk;
-  font-weight: bold;
-  src: url("https://cdn.glitch.me/605e2a51-d45f-4d87-a285-9410ad350515%2FHKGrotesk-Bold.otf?v=1603136323437")
-    format("opentype");
-}
+
 
 /* Navigation grid */
 .footer {
