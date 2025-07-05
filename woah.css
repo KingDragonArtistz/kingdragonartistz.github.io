@@ -21,6 +21,9 @@ html{
 -webkit-text-size-adjust:100%;
 -ms-text-size-adjust:100%;
 font-family: var(--font-family);
+background-color:black;
+}
+body {
 background-image: var(--color-bg);
 background-repeat:no-repeat;
 }
